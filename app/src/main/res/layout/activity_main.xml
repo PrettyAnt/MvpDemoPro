@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="第一个页面测试"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@color/colorNormal"
+        />
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="*第二个页面测试"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@color/colorNormal"
+        />
+    <TextView
+        android:id="@+id/tv_thrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="*第三个页面测试"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@color/colorNormal"
+        />
+    <TextView
+        android:id="@+id/tv_fourth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="*第四个页面测试"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@color/colorNormal"
+        />
+
+
+
+</LinearLayout>

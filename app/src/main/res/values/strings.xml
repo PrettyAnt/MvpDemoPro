@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MvpDemoPro</string>
+    <string name="cy_function_notopen">功能未开放</string>
+</resources>

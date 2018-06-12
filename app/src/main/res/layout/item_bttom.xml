@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_margin="12dp"
+    android:layout_marginBottom="16dp"
+    android:id="@+id/ll_item"
+    android:background="@color/colorAccent">
+    <!--     _id : 5b1684f0421aa95aaf603f7e
+      createdAt : 2018-06-06T10:43:58.834Z
+      desc : 好用漂亮的Android 表格框架,样式丰富。
+      images : ["http://img.gank.io/09e1cd15-a35c-4897-af36-c63700954d58","http://img.gank.io/1733a2fb-182c-4591-a092-43b1f8c4b87a","http://img.gank.io/b96915e3-98d5-42c9-8b3d-6a186fde4ff0","http://img.gank.io/126201f1-34ba-4696-8763-75622c9eb7a4","http://img.gank.io/99815b0e-d00d-47c9-b0ba-f867532109b5"]
+      publishedAt : 2018-06-06T00:00:00.0Z
+      source : chrome
+      type : Android
+      url : https://github.com/huangyanbin/smartTable
+      used : true
+      who : 艾米-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试的底部"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="描述：好用漂亮的Android 表格框架,样式丰富"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间:"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="链接:"
+        android:textSize="14sp"/>
+
+</LinearLayout>
