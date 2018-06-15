@@ -81,7 +81,6 @@ public class FirstActivity extends BaseActivity<MainPresenter> implements IMainV
                     mPresenter.getGankData(NUM, PAGE);
                 }
                 Log.i("wb", "加载中....");
-
             }
         });
     }
