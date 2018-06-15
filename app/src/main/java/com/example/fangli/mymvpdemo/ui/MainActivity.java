@@ -8,6 +8,7 @@ import android.widget.Toast;
 
 import com.example.fangli.mymvpdemo.R;
 import com.example.fangli.mymvpdemo.ui.activity.FirstActivity;
+import com.example.fangli.mymvpdemo.ui.activity.SecondActivity;
 import com.example.fangli.mymvpdemo.ui.base.BaseActivity;
 import com.example.fangli.mymvpdemo.ui.presenter.MainPresenter;
 
@@ -52,7 +53,7 @@ public class MainActivity extends BaseActivity<MainPresenter> {
                 startActivity(FirstActivity.class,this);
                 break;
             case R.id.tv_second:
-                Toast.makeText(this,getString(R.string.cy_function_notopen),Toast.LENGTH_SHORT).show();
+                startActivity(SecondActivity.class,this);
                 break;
             case R.id.tv_thrid:
                 Toast.makeText(this,getString(R.string.cy_function_notopen),Toast.LENGTH_SHORT).show();

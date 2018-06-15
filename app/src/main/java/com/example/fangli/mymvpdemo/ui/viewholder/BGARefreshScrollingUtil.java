@@ -33,8 +33,9 @@ import java.lang.reflect.Field;
 
 
 /**
- * 作者:王浩 邮件:bingoogolapple@gmail.com
- * 创建时间:15/10/28 上午2:26
+ * Created by chenyu.
+ * Created on 下午6:03 2018/5/29.
+ * Author'github https://github.com/PrettyAnt
  * 描述:
  */
 public class BGARefreshScrollingUtil {

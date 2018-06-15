@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_second_state"
+        style="@style/style_content_describle"
+        android:text="secondactivity"/>
+
+    <Button
+        android:id="@+id/btn_second_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="清空"/>
+
+    <TextView
+        android:id="@+id/tv_nodate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="无数据...\n点击刷新"
+        android:visibility="gone"/>
+
+    <com.example.fangli.mymvpdemo.ui.viewholder.BGARefreshLayout
+        android:id="@+id/bfl_fresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:id="@+id/fl_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_second_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </FrameLayout>
+
+    </com.example.fangli.mymvpdemo.ui.viewholder.BGARefreshLayout>
+
+</LinearLayout>

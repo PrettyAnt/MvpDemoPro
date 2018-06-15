@@ -66,7 +66,9 @@ public class PeopleHolder extends RecyclerView.ViewHolder {
 
     @OnClick({R.id.tv_time,R.id.tv_name})
     public void onViewClicked(View view) {
-       itemClickListener.onItemClick(view,getAdapterPosition());
+        if (itemClickListener!=null) {
+            itemClickListener.onItemClick(view,getAdapterPosition());
+        }
     }
     //R.id.tv_name, R.id.tv_desc}
 }

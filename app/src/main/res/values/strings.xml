@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">MvpDemoPro</string>
     <string name="cy_function_notopen">功能未开放</string>
+
+    <string name="refresh_pull_down_text">下拉刷新</string>
+    <string name="refresh_release_text">松开推荐</string>
+    <string name="refresh_ing_text">推荐中</string>
+    <string name="res_net_error">网络不可用</string>
 </resources>
