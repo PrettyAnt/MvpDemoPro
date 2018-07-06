@@ -78,7 +78,7 @@ public class ApiRetrofit {
 
     public static ApiRetrofit getInstance() {
         if (sApiRetrofit == null) {
-            synchronized (Object.class) {
+            synchronized (ApiRetrofit.class) {
                 if (sApiRetrofit == null) {
                     sApiRetrofit = new ApiRetrofit();
                 }

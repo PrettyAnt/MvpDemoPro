@@ -9,6 +9,7 @@ import android.widget.Toast;
 import com.example.fangli.mymvpdemo.R;
 import com.example.fangli.mymvpdemo.ui.activity.FirstActivity;
 import com.example.fangli.mymvpdemo.ui.activity.SecondActivity;
+import com.example.fangli.mymvpdemo.ui.activity.ThirdActivity;
 import com.example.fangli.mymvpdemo.ui.base.BaseActivity;
 import com.example.fangli.mymvpdemo.ui.presenter.MainPresenter;
 
@@ -56,7 +57,7 @@ public class MainActivity extends BaseActivity<MainPresenter> {
                 startActivity(SecondActivity.class,this);
                 break;
             case R.id.tv_thrid:
-                Toast.makeText(this,getString(R.string.cy_function_notopen),Toast.LENGTH_SHORT).show();
+                startActivity(ThirdActivity.class,this);
                 break;
             case R.id.tv_fourth:
                 Toast.makeText(this,getString(R.string.cy_function_notopen),Toast.LENGTH_SHORT).show();
@@ -64,7 +65,7 @@ public class MainActivity extends BaseActivity<MainPresenter> {
         }
     }
 
-    private void startActivity(Class clazz, Context context) {
+    private void  startActivity(Class<?extends BaseActivity> clazz, Context context) {
         Intent intent = new Intent(context, clazz);
         startActivity(intent);
     }

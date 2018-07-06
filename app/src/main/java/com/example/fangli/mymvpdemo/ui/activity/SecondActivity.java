@@ -26,7 +26,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.OnClick;
 
-public class SecondActivity extends BaseActivity<MainPresenter> implements IMainView, BGARefreshLayout.BGARefreshLayoutDelegate {
+public class SecondActivity extends BaseActivity<MainPresenter> implements IMainView<LearnResponseModel>, BGARefreshLayout.BGARefreshLayoutDelegate {
 
 
     private static  int PAGE = 0;

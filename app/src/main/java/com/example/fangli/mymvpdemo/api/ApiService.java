@@ -20,4 +20,18 @@ public interface ApiService {
 
     @GET("api/data/Android/{num}/{page}")
     Observable<LearnResponseModel> getVideoPath(@Path("num") int num, @Path("page") int page );
+
+//    @GET("topic")
+//    Observable<ApiData> getHotTopic();
+
+//    @GET("topic")
+//    Observable<ApiData> getMoreHotTopic(@Query("lastCursor") String lastCursor,
+//                                        @Query("pageSize") int pageSize);
+//
+    @GET("api/data/Android/{num}/{page}")
+    Observable<Object> getHotTopicDetail(@Path("num") int num, @Path("page") int page );
+
+//    @GET("/topic/instantview")
+//    Observable<InstantReadData> getInstantRead(
+//            @Query("topicId") String topicId);
 }

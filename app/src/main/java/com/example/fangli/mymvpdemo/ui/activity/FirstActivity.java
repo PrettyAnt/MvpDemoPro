@@ -25,7 +25,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.OnClick;
 
-public class FirstActivity extends BaseActivity<MainPresenter> implements IMainView, ItemClickListener, SwipeRefreshLayout.OnRefreshListener {
+public class FirstActivity extends BaseActivity<MainPresenter> implements IMainView<LearnResponseModel>, ItemClickListener, SwipeRefreshLayout.OnRefreshListener {
 
 
     @BindView(R.id.btn_show)
